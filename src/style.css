@@ -1,0 +1,63 @@
+/* Body */
+
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+/* CONTAINER */
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    background: rgb(180, 197, 115);
+    background: linear-gradient(0deg, rgb(206, 232, 121) 0%, rgb(121, 186, 134) 100%);
+
+
+}
+.counter{
+    width: 100%;
+    max-width: 400px;
+    padding: 40px;
+    margin: auto;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.result{
+    font-size: 40px;
+    display: inline;
+    padding: 10px;
+}
+
+.counter-btn {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+.counter-btn1 {
+    font-weight: bold;
+    font-size: larger;
+    padding: 10px;
+    background-color: green;
+    border-radius: 10px;
+}
+
+.counter-btn2 {
+    font-weight: bold;
+    font-size: larger;
+    padding: 10px;
+    background-color: green;
+    border-radius: 10px;
+}
+
+.counter-reset {
+    font-weight: bold;
+    font-size: larger;
+    padding: 10px;
+    background-color: red;
+    border-radius: 10px;
+}
